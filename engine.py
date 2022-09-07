@@ -86,7 +86,8 @@ class Value:
         return out
     
     def backward(self):
-        # topological sort
+        # topological sort to order vertices such that for every edge uv between u and v, u comes before v.
+        # then it needs to be reversed, so backpropogation can begin from the very last vertex.
         topo = []
         visited = set()
         def topological_sort(v):

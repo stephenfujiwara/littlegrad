@@ -2,7 +2,9 @@
 
 This is a small autograd engine built from following a tutorial taught by Andrej Karpathy himself. 
 
-Backpropagation is implemented over a dynamic acyclic graph, but since the engine itself is quite limited, operations need to be split into the most elementary of operations.
+Backpropagation is implemented over a dynamic acyclic graph, which makes you think about Neural Nets in a different light.
+
+Since the engine itself is quite limited, operations need to be split into the most elementary of operations.
 
 ## autodifferentiation at work
 

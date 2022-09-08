@@ -27,7 +27,7 @@ print(f'{d.grad:.4f}') # prints df/dd : 5.0000
 
 Each operation that is implemented in the engine will "store"
 a function to compute the gradient within the result of each operation, this allows for the local gradients to be chained
-to build up a produce the global gradient for each variable.
+to build up a produce the global gradient for each node in the overall operation.
 
 In `engine.py`
 

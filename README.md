@@ -47,6 +47,6 @@ to build up a produce the global gradient for each variable.
 
 ## testing it out
 
-The engine is tested out by training a small MLP powered by the engine on a made-up moons dataset from scikit-learn. As it turns out, it works great.
+The engine is tested out in `engine_test.ipynb` by training a small MLP powered by the engine on a made-up moons dataset from scikit-learn. As it turns out, it works great.
 
 ![binary classification](output.png)

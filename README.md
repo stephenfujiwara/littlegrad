@@ -49,6 +49,6 @@ In `engine.py`
 
 ## testing it out
 
-The engine is tested out in `engine_test.ipynb` by training a small MLP powered by the engine on a made-up moons dataset from scikit-learn. As it turns out, it works great.
+The engine is tested out in `engine_test.ipynb` by training a small MLP powered by the engine on a made-up moons classification dataset from scikit-learn. As it turns out, the MLP is able to do great on this classification task.
 
 ![binary classification](output.png)
